@@ -1,0 +1,9 @@
+#define PERIPH_BASE           ((uint32_t)0x40000000)
+	#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+	#define GPIOA_BASE            (APB2PERIPH_BASE + 0x0800)    //0x40010800
+		#define GPIOA_ODR_Addr    (GPIOA_BASE+12)	    //0x4001080c
+		#define PAout(n)   BIT_ADDR(GPIOA_ODR_Addr,n) 
+		#define BIT_ADDR(addr, bitnum)   MEM_ADDR(BITBAND(addr, bitnum)) 
+		#define MEM_ADDR(addr)  *((volatile unsigned long  *)(addr)) 
+		#define BITBAND(addr, bitnum) ((addr & 0xF0000000)+0x2000000+((addr &0xFFFFF)<<5)+(bitnum<<2)) 
+	
