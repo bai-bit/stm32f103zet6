@@ -1,0 +1,116 @@
+Dependencies for Project 'Template', Target 'led': (DO NOT MODIFY !)
+F (.\main.c)(0x5D9FE825)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\AT32F4XX_FWLib\CoreSupport -I ..\AT32F4XX_FWLib\DeviceSupport -I ..\HARDWARE-I.\RTE\_led-ID:\keil_pack\Keil\AT32F4xx_DFP\1.2.0\Device\Include-I"D:\Program Files\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DAT32F403Zx_XL-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (..\HARDWARE\hw_systick.h)(0x5D9FE79B)
+I (..\AT32F4XX_FWLib\DeviceSupport\at32f4xx.h)(0x5D492062)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cm4.h)(0x5CEB6970)
+I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmInstr.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\cmsis_armcc.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmFunc.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmSimd.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\DeviceSupport\system_at32f4xx.h)(0x5CEB6971)
+I (..\HARDWARE\uart.h)(0x5D9FE424)
+I (..\HARDWARE\GPIO_Init.h)(0x5D9D9BCE)
+I (..\HARDWARE\nvic.h)(0x5D9DE2B2)
+I (..\HARDWARE\getclock.h)(0x5D9EDA64)
+I (..\HARDWARE\strfunc.h)(0x5D9FE424)
+I (..\HARDWARE\led.h)(0x5D9AD791)
+F (..\HARDWARE\gpio_init.c)(0x5D91CFCE)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\AT32F4XX_FWLib\CoreSupport -I ..\AT32F4XX_FWLib\DeviceSupport -I ..\HARDWARE-I.\RTE\_led-ID:\keil_pack\Keil\AT32F4xx_DFP\1.2.0\Device\Include-I"D:\Program Files\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DAT32F403Zx_XL-o ..\obj\gpio_init.o --omf_browse ..\obj\gpio_init.crf --depend ..\obj\gpio_init.d)
+I (..\HARDWARE\GPIO_Init.h)(0x5D9D9BCE)
+I (..\AT32F4XX_FWLib\DeviceSupport\at32f4xx.h)(0x5D492062)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cm4.h)(0x5CEB6970)
+I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmInstr.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\cmsis_armcc.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmFunc.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmSimd.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\DeviceSupport\system_at32f4xx.h)(0x5CEB6971)
+F (..\HARDWARE\HW_SysTick.c)(0x5D9FEAC9)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\AT32F4XX_FWLib\CoreSupport -I ..\AT32F4XX_FWLib\DeviceSupport -I ..\HARDWARE-I.\RTE\_led-ID:\keil_pack\Keil\AT32F4xx_DFP\1.2.0\Device\Include-I"D:\Program Files\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DAT32F403Zx_XL-o ..\obj\hw_systick.o --omf_browse ..\obj\hw_systick.crf --depend ..\obj\hw_systick.d)
+I (..\HARDWARE\hw_systick.h)(0x5D9FE79B)
+I (..\AT32F4XX_FWLib\DeviceSupport\at32f4xx.h)(0x5D492062)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cm4.h)(0x5CEB6970)
+I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmInstr.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\cmsis_armcc.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmFunc.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmSimd.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\DeviceSupport\system_at32f4xx.h)(0x5CEB6971)
+I (..\HARDWARE\uart.h)(0x5D9FE424)
+I (..\HARDWARE\GPIO_Init.h)(0x5D9D9BCE)
+I (..\HARDWARE\nvic.h)(0x5D9DE2B2)
+I (..\HARDWARE\getclock.h)(0x5D9EDA64)
+I (..\HARDWARE\strfunc.h)(0x5D9FE424)
+F (..\HARDWARE\led.c)(0x5D9EE905)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\AT32F4XX_FWLib\CoreSupport -I ..\AT32F4XX_FWLib\DeviceSupport -I ..\HARDWARE-I.\RTE\_led-ID:\keil_pack\Keil\AT32F4xx_DFP\1.2.0\Device\Include-I"D:\Program Files\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DAT32F403Zx_XL-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\HARDWARE\led.h)(0x5D9AD791)
+I (..\HARDWARE\GPIO_Init.h)(0x5D9D9BCE)
+I (..\AT32F4XX_FWLib\DeviceSupport\at32f4xx.h)(0x5D492062)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cm4.h)(0x5CEB6970)
+I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmInstr.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\cmsis_armcc.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmFunc.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmSimd.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\DeviceSupport\system_at32f4xx.h)(0x5CEB6971)
+F (..\HARDWARE\nvic.c)(0x5D9FE5DA)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\AT32F4XX_FWLib\CoreSupport -I ..\AT32F4XX_FWLib\DeviceSupport -I ..\HARDWARE-I.\RTE\_led-ID:\keil_pack\Keil\AT32F4xx_DFP\1.2.0\Device\Include-I"D:\Program Files\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DAT32F403Zx_XL-o ..\obj\nvic.o --omf_browse ..\obj\nvic.crf --depend ..\obj\nvic.d)
+I (..\HARDWARE\nvic.h)(0x5D9DE2B2)
+I (..\AT32F4XX_FWLib\DeviceSupport\at32f4xx.h)(0x5D492062)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cm4.h)(0x5CEB6970)
+I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmInstr.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\cmsis_armcc.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmFunc.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmSimd.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\DeviceSupport\system_at32f4xx.h)(0x5CEB6971)
+F (..\HARDWARE\uart.c)(0x5D9FE5DA)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\AT32F4XX_FWLib\CoreSupport -I ..\AT32F4XX_FWLib\DeviceSupport -I ..\HARDWARE-I.\RTE\_led-ID:\keil_pack\Keil\AT32F4xx_DFP\1.2.0\Device\Include-I"D:\Program Files\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DAT32F403Zx_XL-o ..\obj\uart.o --omf_browse ..\obj\uart.crf --depend ..\obj\uart.d)
+I (..\HARDWARE\uart.h)(0x5D9FE424)
+I (..\HARDWARE\GPIO_Init.h)(0x5D9D9BCE)
+I (..\AT32F4XX_FWLib\DeviceSupport\at32f4xx.h)(0x5D492062)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cm4.h)(0x5CEB6970)
+I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmInstr.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\cmsis_armcc.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmFunc.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmSimd.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\DeviceSupport\system_at32f4xx.h)(0x5CEB6971)
+I (..\HARDWARE\nvic.h)(0x5D9DE2B2)
+I (..\HARDWARE\getclock.h)(0x5D9EDA64)
+F (..\AT32F4XX_FWLib\src\at32f4xx_rcc.c)(0x5D9C9C91)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\AT32F4XX_FWLib\CoreSupport -I ..\AT32F4XX_FWLib\DeviceSupport -I ..\HARDWARE-I.\RTE\_led-ID:\keil_pack\Keil\AT32F4xx_DFP\1.2.0\Device\Include-I"D:\Program Files\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DAT32F403Zx_XL-o ..\obj\at32f4xx_rcc.o --omf_browse ..\obj\at32f4xx_rcc.crf --depend ..\obj\at32f4xx_rcc.d)
+I (..\HARDWARE\at32f4xx_rcc.h)(0x5D5CD464)
+I (..\AT32F4XX_FWLib\DeviceSupport\at32f4xx.h)(0x5D492062)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cm4.h)(0x5CEB6970)
+I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmInstr.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\cmsis_armcc.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmFunc.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmSimd.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\DeviceSupport\system_at32f4xx.h)(0x5CEB6971)
+F (..\HARDWARE\getclock.c)(0x5D9FE604)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\AT32F4XX_FWLib\CoreSupport -I ..\AT32F4XX_FWLib\DeviceSupport -I ..\HARDWARE-I.\RTE\_led-ID:\keil_pack\Keil\AT32F4xx_DFP\1.2.0\Device\Include-I"D:\Program Files\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DAT32F403Zx_XL-o ..\obj\getclock.o --omf_browse ..\obj\getclock.crf --depend ..\obj\getclock.d)
+I (..\HARDWARE\getclock.h)(0x5D9EDA64)
+I (..\AT32F4XX_FWLib\DeviceSupport\at32f4xx.h)(0x5D492062)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cm4.h)(0x5CEB6970)
+I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmInstr.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\cmsis_armcc.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmFunc.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmSimd.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\DeviceSupport\system_at32f4xx.h)(0x5CEB6971)
+F (..\HARDWARE\strfunc.c)(0x5D9FE5DA)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\AT32F4XX_FWLib\CoreSupport -I ..\AT32F4XX_FWLib\DeviceSupport -I ..\HARDWARE-I.\RTE\_led-ID:\keil_pack\Keil\AT32F4xx_DFP\1.2.0\Device\Include-I"D:\Program Files\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DAT32F403Zx_XL-o ..\obj\strfunc.o --omf_browse ..\obj\strfunc.crf --depend ..\obj\strfunc.d)
+I (..\HARDWARE\strfunc.h)(0x5D9FE424)
+I (..\AT32F4XX_FWLib\DeviceSupport\at32f4xx.h)(0x5D492062)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cm4.h)(0x5CEB6970)
+I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmInstr.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\cmsis_armcc.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmFunc.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmSimd.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\DeviceSupport\system_at32f4xx.h)(0x5CEB6971)
+F (..\CORE\startup_at32f403cx_xl.s)(0x5CEB6971)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_led-ID:\keil_pack\Keil\AT32F4xx_DFP\1.2.0\Device\Include-I"D:\Program Files\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 528"--list ..\obj\startup_at32f403cx_xl.lst --xref -o ..\obj\startup_at32f403cx_xl.o --depend ..\obj\startup_at32f403cx_xl.d)
+F (..\SYSTEM\system_at32f4xx.c)(0x5D91D0E3)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\AT32F4XX_FWLib\CoreSupport -I ..\AT32F4XX_FWLib\DeviceSupport -I ..\HARDWARE-I.\RTE\_led-ID:\keil_pack\Keil\AT32F4xx_DFP\1.2.0\Device\Include-I"D:\Program Files\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DAT32F403Zx_XL-o ..\obj\system_at32f4xx.o --omf_browse ..\obj\system_at32f4xx.crf --depend ..\obj\system_at32f4xx.d)
+I (..\AT32F4XX_FWLib\DeviceSupport\at32f4xx.h)(0x5D492062)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cm4.h)(0x5CEB6970)
+I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmInstr.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\cmsis_armcc.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmFunc.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\CoreSupport\core_cmSimd.h)(0x5CEB6970)
+I (..\AT32F4XX_FWLib\DeviceSupport\system_at32f4xx.h)(0x5CEB6971)
