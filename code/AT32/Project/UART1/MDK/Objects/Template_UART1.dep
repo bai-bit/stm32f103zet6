@@ -1,106 +1,0 @@
-Dependencies for Project 'Template', Target 'UART1': (DO NOT MODIFY !)
-F (..\src\main.c)(0x5DA19E78)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\drivers\inc -I ..\..\..\Libraries\startup\DeviceSupport -I ..\..\..\Libraries\startup\CoreSupport -I ..\..\..\Libraries\startup-I.\RTE\_UART1-ID:\keil_pack\Keil\AT32F4xx_DFP\1.2.0\Device\Include-I"D:\Program Files\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DAT32F403Zx_XL-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (..\..\..\Libraries\drivers\inc\hw_systick.h)(0x5D9FE79B)
-I (..\..\..\Libraries\startup\DeviceSupport\at32f4xx.h)(0x5D492062)
-I (..\..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x5CEB6970)
-I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\cmsis_armcc.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmSimd.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\DeviceSupport\system_at32f4xx.h)(0x5CEB6971)
-I (..\..\..\Libraries\drivers\inc\uart.h)(0x5D9FE424)
-I (..\..\..\Libraries\drivers\inc\GPIO_Init.h)(0x5D9D9BCE)
-I (..\..\..\Libraries\drivers\inc\nvic.h)(0x5D9DE2B2)
-I (..\..\..\Libraries\drivers\inc\getclock.h)(0x5D9EDA64)
-I (..\..\..\Libraries\drivers\inc\strfunc.h)(0x5D9FE424)
-I (..\..\..\Libraries\drivers\inc\led.h)(0x5D9AD791)
-F (..\..\..\Libraries\drivers\src\getclock.c)(0x5D9FE604)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\drivers\inc -I ..\..\..\Libraries\startup\DeviceSupport -I ..\..\..\Libraries\startup\CoreSupport -I ..\..\..\Libraries\startup-I.\RTE\_UART1-ID:\keil_pack\Keil\AT32F4xx_DFP\1.2.0\Device\Include-I"D:\Program Files\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DAT32F403Zx_XL-o .\objects\getclock.o --omf_browse .\objects\getclock.crf --depend .\objects\getclock.d)
-I (..\..\..\Libraries\drivers\inc\getclock.h)(0x5D9EDA64)
-I (..\..\..\Libraries\startup\DeviceSupport\at32f4xx.h)(0x5D492062)
-I (..\..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x5CEB6970)
-I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\cmsis_armcc.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmSimd.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\DeviceSupport\system_at32f4xx.h)(0x5CEB6971)
-F (..\..\..\Libraries\drivers\src\gpio_init.c)(0x5D91CFCE)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\drivers\inc -I ..\..\..\Libraries\startup\DeviceSupport -I ..\..\..\Libraries\startup\CoreSupport -I ..\..\..\Libraries\startup-I.\RTE\_UART1-ID:\keil_pack\Keil\AT32F4xx_DFP\1.2.0\Device\Include-I"D:\Program Files\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DAT32F403Zx_XL-o .\objects\gpio_init.o --omf_browse .\objects\gpio_init.crf --depend .\objects\gpio_init.d)
-I (..\..\..\Libraries\drivers\inc\GPIO_Init.h)(0x5D9D9BCE)
-I (..\..\..\Libraries\startup\DeviceSupport\at32f4xx.h)(0x5D492062)
-I (..\..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x5CEB6970)
-I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\cmsis_armcc.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmSimd.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\DeviceSupport\system_at32f4xx.h)(0x5CEB6971)
-F (..\..\..\Libraries\drivers\src\HW_SysTick.c)(0x5D9FEAC9)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\drivers\inc -I ..\..\..\Libraries\startup\DeviceSupport -I ..\..\..\Libraries\startup\CoreSupport -I ..\..\..\Libraries\startup-I.\RTE\_UART1-ID:\keil_pack\Keil\AT32F4xx_DFP\1.2.0\Device\Include-I"D:\Program Files\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DAT32F403Zx_XL-o .\objects\hw_systick.o --omf_browse .\objects\hw_systick.crf --depend .\objects\hw_systick.d)
-I (..\..\..\Libraries\drivers\inc\hw_systick.h)(0x5D9FE79B)
-I (..\..\..\Libraries\startup\DeviceSupport\at32f4xx.h)(0x5D492062)
-I (..\..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x5CEB6970)
-I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\cmsis_armcc.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmSimd.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\DeviceSupport\system_at32f4xx.h)(0x5CEB6971)
-I (..\..\..\Libraries\drivers\inc\uart.h)(0x5D9FE424)
-I (..\..\..\Libraries\drivers\inc\GPIO_Init.h)(0x5D9D9BCE)
-I (..\..\..\Libraries\drivers\inc\nvic.h)(0x5D9DE2B2)
-I (..\..\..\Libraries\drivers\inc\getclock.h)(0x5D9EDA64)
-I (..\..\..\Libraries\drivers\inc\strfunc.h)(0x5D9FE424)
-F (..\..\..\Libraries\drivers\src\led.c)(0x5D9EE905)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\drivers\inc -I ..\..\..\Libraries\startup\DeviceSupport -I ..\..\..\Libraries\startup\CoreSupport -I ..\..\..\Libraries\startup-I.\RTE\_UART1-ID:\keil_pack\Keil\AT32F4xx_DFP\1.2.0\Device\Include-I"D:\Program Files\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DAT32F403Zx_XL-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
-I (..\..\..\Libraries\drivers\inc\led.h)(0x5D9AD791)
-I (..\..\..\Libraries\drivers\inc\GPIO_Init.h)(0x5D9D9BCE)
-I (..\..\..\Libraries\startup\DeviceSupport\at32f4xx.h)(0x5D492062)
-I (..\..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x5CEB6970)
-I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\cmsis_armcc.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmSimd.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\DeviceSupport\system_at32f4xx.h)(0x5CEB6971)
-F (..\..\..\Libraries\drivers\src\nvic.c)(0x5D9FE5DA)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\drivers\inc -I ..\..\..\Libraries\startup\DeviceSupport -I ..\..\..\Libraries\startup\CoreSupport -I ..\..\..\Libraries\startup-I.\RTE\_UART1-ID:\keil_pack\Keil\AT32F4xx_DFP\1.2.0\Device\Include-I"D:\Program Files\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DAT32F403Zx_XL-o .\objects\nvic.o --omf_browse .\objects\nvic.crf --depend .\objects\nvic.d)
-I (..\..\..\Libraries\drivers\inc\nvic.h)(0x5D9DE2B2)
-I (..\..\..\Libraries\startup\DeviceSupport\at32f4xx.h)(0x5D492062)
-I (..\..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x5CEB6970)
-I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\cmsis_armcc.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmSimd.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\DeviceSupport\system_at32f4xx.h)(0x5CEB6971)
-F (..\..\..\Libraries\drivers\src\strfunc.c)(0x5D9FE5DA)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\drivers\inc -I ..\..\..\Libraries\startup\DeviceSupport -I ..\..\..\Libraries\startup\CoreSupport -I ..\..\..\Libraries\startup-I.\RTE\_UART1-ID:\keil_pack\Keil\AT32F4xx_DFP\1.2.0\Device\Include-I"D:\Program Files\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DAT32F403Zx_XL-o .\objects\strfunc.o --omf_browse .\objects\strfunc.crf --depend .\objects\strfunc.d)
-I (..\..\..\Libraries\drivers\inc\strfunc.h)(0x5D9FE424)
-I (..\..\..\Libraries\startup\DeviceSupport\at32f4xx.h)(0x5D492062)
-I (..\..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x5CEB6970)
-I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\cmsis_armcc.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmSimd.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\DeviceSupport\system_at32f4xx.h)(0x5CEB6971)
-F (..\..\..\Libraries\drivers\src\uart.c)(0x5DA19E9C)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\drivers\inc -I ..\..\..\Libraries\startup\DeviceSupport -I ..\..\..\Libraries\startup\CoreSupport -I ..\..\..\Libraries\startup-I.\RTE\_UART1-ID:\keil_pack\Keil\AT32F4xx_DFP\1.2.0\Device\Include-I"D:\Program Files\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DAT32F403Zx_XL-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
-I (..\..\..\Libraries\drivers\inc\uart.h)(0x5D9FE424)
-I (..\..\..\Libraries\drivers\inc\GPIO_Init.h)(0x5D9D9BCE)
-I (..\..\..\Libraries\startup\DeviceSupport\at32f4xx.h)(0x5D492062)
-I (..\..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x5CEB6970)
-I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\cmsis_armcc.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmSimd.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\DeviceSupport\system_at32f4xx.h)(0x5CEB6971)
-I (..\..\..\Libraries\drivers\inc\nvic.h)(0x5D9DE2B2)
-I (..\..\..\Libraries\drivers\inc\getclock.h)(0x5D9EDA64)
-F (..\..\..\Libraries\startup\DeviceSupport\system_at32f4xx.c)(0x5D5BC756)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\drivers\inc -I ..\..\..\Libraries\startup\DeviceSupport -I ..\..\..\Libraries\startup\CoreSupport -I ..\..\..\Libraries\startup-I.\RTE\_UART1-ID:\keil_pack\Keil\AT32F4xx_DFP\1.2.0\Device\Include-I"D:\Program Files\ARM\CMSIS\Include"-D__UVISION_VERSION="528" -DAT32F403Zx_XL-o .\objects\system_at32f4xx.o --omf_browse .\objects\system_at32f4xx.crf --depend .\objects\system_at32f4xx.d)
-I (..\..\..\Libraries\startup\DeviceSupport\at32f4xx.h)(0x5D492062)
-I (..\..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x5CEB6970)
-I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\cmsis_armcc.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\CoreSupport\core_cmSimd.h)(0x5CEB6970)
-I (..\..\..\Libraries\startup\DeviceSupport\system_at32f4xx.h)(0x5CEB6971)
-F (..\..\..\Libraries\startup\DeviceSupport\startup\mdk\startup_at32f403zx_xl.s)(0x5CEB6971)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_UART1-ID:\keil_pack\Keil\AT32F4xx_DFP\1.2.0\Device\Include-I"D:\Program Files\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 528"--list .\listings\startup_at32f403zx_xl.lst --xref -o .\objects\startup_at32f403zx_xl.o --depend .\objects\startup_at32f403zx_xl.d)
